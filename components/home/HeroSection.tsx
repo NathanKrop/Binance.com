@@ -4,12 +4,12 @@ export function HeroSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(300px,0.9fr)] items-center">
           <div className="space-y-6">
-            <p className="text-sm uppercase tracking-[0.3em] text-brand-yellow">World’s Leading Crypto Exchange</p>
+            <p className="text-sm uppercase tracking-[0.3em] text-brand-yellow">323,541,110 users trust us</p>
             <h1 className="max-w-3xl text-4xl font-semibold leading-tight text-white sm:text-5xl">
-              Buy Bitcoin, Ethereum and 350+ cryptocurrencies with confidence.
+              The World’s Leading Cryptocurrency Exchange.
             </h1>
             <p className="max-w-2xl text-base text-text-secondary sm:text-lg">
-              Access top crypto markets, advanced trading tools, and institutional-grade liquidity on a trusted platform.
+              Trade over 350 cryptocurrencies with top liquidity, low fees, and award-winning security.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <button className="rounded-full bg-brand-yellow px-6 py-3 text-sm font-semibold text-bg-primary transition hover:bg-brand-yellow-dim">

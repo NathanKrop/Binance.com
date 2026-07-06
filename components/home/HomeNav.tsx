@@ -11,6 +11,7 @@ export function HomeNav() {
             <a href="#" className="transition hover:text-text-primary">Derivatives</a>
             <a href="#" className="transition hover:text-text-primary">Earn</a>
             <a href="#" className="transition hover:text-text-primary">Wallet</a>
+            <a href="#" className="transition hover:text-text-primary">Download</a>
             <a href="#" className="transition hover:text-text-primary">Support</a>
           </nav>
         </div>

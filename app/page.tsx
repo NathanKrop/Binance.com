@@ -5,7 +5,11 @@ import { MarketTicker } from "@components/home/MarketTicker";
 import { NewsSection } from "@components/home/NewsSection";
 import { PopularCoins } from "@components/home/PopularCoins";
 import { ProductsSection } from "@components/home/ProductsSection";
+import { SafuSection } from "@components/home/SafuSection";
+import { DownloadSection } from "@components/home/DownloadSection";
+import { FAQSection } from "@components/home/FAQSection";
 import { TrustSection } from "@components/home/TrustSection";
+import { BottomCta } from "@components/home/BottomCta";
 
 export default function RootPage() {
   return (
@@ -17,7 +21,11 @@ export default function RootPage() {
         <MarketTicker />
         <PopularCoins />
         <NewsSection />
+        <SafuSection />
+        <DownloadSection />
+        <FAQSection />
         <TrustSection />
+        <BottomCta />
       </div>
       <Footer />
     </main>
