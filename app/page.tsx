@@ -1,6 +1,7 @@
 import { Footer } from "@components/home/Footer";
 import { HeroSection } from "@components/home/HeroSection";
 import { HomeNav } from "@components/home/HomeNav";
+import { MarketTabsSection } from "@components/home/MarketTabsSection";
 import { MarketTicker } from "@components/home/MarketTicker";
 import { NewsSection } from "@components/home/NewsSection";
 import { PopularCoins } from "@components/home/PopularCoins";
@@ -17,6 +18,7 @@ export default function RootPage() {
       <HomeNav />
       <HeroSection />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <MarketTabsSection />
         <ProductsSection />
         <MarketTicker />
         <PopularCoins />

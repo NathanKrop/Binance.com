@@ -12,12 +12,15 @@ export function HeroSection() {
               Trade over 350 cryptocurrencies with top liquidity, low fees, and award-winning security.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-              <button className="rounded-full bg-brand-yellow px-6 py-3 text-sm font-semibold text-bg-primary transition hover:bg-brand-yellow-dim">
-                Get Started
-              </button>
+              <a href="https://accounts.binance.com/en/register?registerChannel=homepage" className="inline-flex items-center justify-center rounded-full bg-brand-yellow px-6 py-3 text-sm font-semibold text-bg-primary transition hover:bg-brand-yellow-dim">
+                Sign Up
+              </a>
               <button className="rounded-full border border-border-default px-6 py-3 text-sm text-text-secondary transition hover:border-brand-yellow hover:text-text-primary">
                 View Markets
               </button>
+            </div>
+            <div className="rounded-full border border-brand-yellow/30 bg-brand-yellow/5 px-4 py-2 text-sm text-text-secondary">
+              Up to $100 Bonus Only Today
             </div>
             <div className="grid gap-3 sm:grid-cols-3">
               <div className="rounded-2xl border border-border-default bg-bg-secondary/80 p-4">
