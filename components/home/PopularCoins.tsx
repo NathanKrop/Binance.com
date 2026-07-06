@@ -16,7 +16,7 @@ export function PopularCoins() {
           <h2 className="text-2xl font-semibold text-white">Popular coins</h2>
         </div>
         <button className="rounded-full border border-border-default px-4 py-2 text-xs text-text-secondary transition hover:border-brand-yellow hover:text-text-primary">
-          View All 350+ Coins
+          Browse all markets
         </button>
       </div>
 

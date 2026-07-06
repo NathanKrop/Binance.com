@@ -19,11 +19,11 @@ export function NewsSection() {
         </a>
       </div>
 
-      <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+      <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {stories.map((story) => (
-          <a key={story.title} href={story.href} className="rounded-3xl border border-border-default bg-bg-primary/80 p-5 transition hover:border-brand-yellow hover:bg-bg-secondary">
+          <a key={story.title} href={story.href} className="rounded-[1.75rem] border border-border-default bg-bg-primary/90 p-5 transition hover:border-brand-yellow hover:bg-bg-secondary">
             <p className="text-sm font-semibold text-white">{story.title}</p>
-            <p className="mt-3 text-xs text-text-secondary">Read the latest updates and insights on crypto, finance, and blockchain.</p>
+            <p className="mt-3 text-xs text-text-secondary">Read the latest updates and insights across crypto and markets.</p>
           </a>
         ))}
       </div>

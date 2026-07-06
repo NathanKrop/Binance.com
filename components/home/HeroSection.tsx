@@ -6,31 +6,31 @@ export function HeroSection() {
           <div className="space-y-6">
             <p className="text-sm uppercase tracking-[0.3em] text-brand-yellow">World’s Leading Crypto Exchange</p>
             <h1 className="max-w-3xl text-4xl font-semibold leading-tight text-white sm:text-5xl">
-              Buy, sell and explore the world’s largest crypto marketplace.
+              Buy Bitcoin, Ethereum and 350+ cryptocurrencies with confidence.
             </h1>
             <p className="max-w-2xl text-base text-text-secondary sm:text-lg">
-              Trade over 350+ cryptocurrencies with the most trusted platform, advanced charting, and low fees.
+              Access top crypto markets, advanced trading tools, and institutional-grade liquidity on a trusted platform.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <button className="rounded-full bg-brand-yellow px-6 py-3 text-sm font-semibold text-bg-primary transition hover:bg-brand-yellow-dim">
-                Sign Up
+                Get Started
               </button>
               <button className="rounded-full border border-border-default px-6 py-3 text-sm text-text-secondary transition hover:border-brand-yellow hover:text-text-primary">
-                Markets
+                View Markets
               </button>
             </div>
             <div className="grid gap-3 sm:grid-cols-3">
               <div className="rounded-2xl border border-border-default bg-bg-secondary/80 p-4">
-                <p className="text-sm text-text-secondary">Trust</p>
-                <p className="mt-2 text-2xl font-semibold text-white">323,538,188</p>
+                <p className="text-sm text-text-secondary">Users</p>
+                <p className="mt-2 text-2xl font-semibold text-white">323M+</p>
               </div>
               <div className="rounded-2xl border border-border-default bg-bg-secondary/80 p-4">
                 <p className="text-sm text-text-secondary">24h Volume</p>
-                <p className="mt-2 text-2xl font-semibold text-white">$53,263,505,986</p>
+                <p className="mt-2 text-2xl font-semibold text-white">$53B+</p>
               </div>
               <div className="rounded-2xl border border-border-default bg-bg-secondary/80 p-4">
-                <p className="text-sm text-text-secondary">Customer Assets</p>
-                <p className="mt-2 text-2xl font-semibold text-white">$130,195,456,585</p>
+                <p className="text-sm text-text-secondary">Assets</p>
+                <p className="mt-2 text-2xl font-semibold text-white">$130B+</p>
               </div>
             </div>
           </div>
@@ -53,16 +53,16 @@ export function HeroSection() {
               </div>
               <div className="grid gap-3 rounded-2xl bg-bg-primary p-4 text-sm">
                 <div className="flex items-center justify-between text-text-secondary">
-                  <span>Price</span>
-                  <span className="text-white">$62,313.47</span>
+                  <span>Trusted</span>
+                  <span className="text-white">24/7 monitoring</span>
                 </div>
                 <div className="flex items-center justify-between text-text-secondary">
-                  <span>24h Change</span>
-                  <span className="text-bear-red">-0.96%</span>
+                  <span>Liquidity</span>
+                  <span className="text-text-primary">Deep global pools</span>
                 </div>
                 <div className="flex items-center justify-between text-text-secondary">
-                  <span>Market</span>
-                  <span className="text-text-primary">Spot market depth</span>
+                  <span>Fees</span>
+                  <span className="text-text-primary">Low trading fees</span>
                 </div>
               </div>
             </div>

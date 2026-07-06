@@ -1,15 +1,17 @@
 export function HomeNav() {
   return (
-    <header className="border-b border-border-default bg-bg-secondary/80 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+    <header className="border-b border-border-default bg-bg-secondary/90 backdrop-blur-sm">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-3">
           <span className="text-brand-yellow text-xl font-bold tracking-tight">Binance</span>
           <nav className="hidden items-center gap-4 text-sm text-text-secondary md:flex">
-            <a href="#" className="hover:text-text-primary">Buy Crypto</a>
-            <a href="#" className="hover:text-text-primary">Markets</a>
-            <a href="#" className="hover:text-text-primary">Trade</a>
-            <a href="#" className="hover:text-text-primary">Earn</a>
-            <a href="#" className="hover:text-text-primary">NFT</a>
+            <a href="#" className="transition hover:text-text-primary">Buy Crypto</a>
+            <a href="#" className="transition hover:text-text-primary">Markets</a>
+            <a href="#" className="transition hover:text-text-primary">Trade</a>
+            <a href="#" className="transition hover:text-text-primary">Derivatives</a>
+            <a href="#" className="transition hover:text-text-primary">Earn</a>
+            <a href="#" className="transition hover:text-text-primary">Wallet</a>
+            <a href="#" className="transition hover:text-text-primary">Support</a>
           </nav>
         </div>
         <div className="flex items-center gap-2 text-sm">

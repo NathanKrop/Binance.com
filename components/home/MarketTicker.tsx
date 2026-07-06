@@ -23,14 +23,17 @@ export function MarketTicker() {
 
       <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
         {markets.map((market) => (
-          <div key={market.symbol} className="rounded-3xl border border-border-default bg-[#11151D]/90 p-4">
+          <div key={market.symbol} className="rounded-[1.75rem] border border-border-default bg-bg-secondary/80 p-5 transition hover:border-brand-yellow/30 hover:bg-bg-secondary">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <p className="text-xs uppercase tracking-[0.24em] text-text-secondary">{market.name}</p>
-                <p className="mt-2 text-lg font-semibold text-white">{market.price}</p>
+                <p className="mt-2 text-xl font-semibold text-white">{market.price}</p>
               </div>
-              <span className="rounded-full bg-bear-red/10 px-3 py-1 text-sm text-bear-red">{market.change}</span>
+              <span className={market.change.startsWith("+") ? "rounded-full bg-bull-green/10 px-3 py-1 text-sm text-bull-green" : "rounded-full bg-bear-red/10 px-3 py-1 text-sm text-bear-red"}>
+                {market.change}
+              </span>
             </div>
+            <p className="mt-4 text-xs text-text-secondary">Fast execution and deep liquidity for top crypto markets.</p>
           </div>
         ))}
       </div>
