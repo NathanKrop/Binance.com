@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Binance Clone — Advanced Trading",
-  description: "High-performance crypto trading terminal",
+  title: "Binance Clone — Crypto Exchange",
+  description: "A cloned Binance homepage and trading experience built with Next.js and Tailwind CSS.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark">
-      <body className="h-screen w-screen overflow-hidden bg-bg-primary">
+      <body className="min-h-screen bg-bg-primary text-text-primary">
         {children}
       </body>
     </html>
